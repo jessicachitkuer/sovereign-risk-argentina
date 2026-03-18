@@ -1,41 +1,52 @@
-## Sovereign Credit Risk Analysis: Argentina
+# Sovereign Risk Analysis: Argentina
 
-An in-depth analysis of Argentina’s sovereign credit risk and financial sector fragility, completed as a final project for NYU Stern’s Credit Risk & Bankruptcy course (taught by Professor Viral Acharya, former Deputy Governor of the Reserve Bank of India).
+A market-based analysis of sovereign credit risk and financial system fragility, using Argentina as a case study to examine how risk is priced, transmitted, and amplified across financial markets.
 
-This project explores the structural vulnerabilities of Argentina’s economy through the lens of sovereign risk, banking sector exposure, and macro-financial instability.
+### Overview
+This project analyzes Argentina’s sovereign risk through credit market signals (CDS, bond yields), macroeconomic data, and financial sector structure.
 
-### Key themes:
-• Sovereign default risk and market-implied probabilities  
-• CDS spreads, bond yields, and yield curve inversion  
-• The sovereign-bank “doom loop” and systemic risk transmission  
-• Dollarization and currency mismatch in financial institutions  
-• IMF intervention and macro stabilization challenges  
+It focuses on how sovereign risk is priced in real time, how it propagates through the banking system, and how feedback loops can amplify instability.
+
+### Key Insights
+
+• Market pricing implies elevated default risk, with long-dated debt reflecting probabilities as high as ~72%
+• Yield curve inversion reflects acute short-term liquidity and rollover risk  
+• >40% of bank assets are concentrated in sovereign debt, reinforcing systemic fragility  
+• High dollarization weakens monetary policy transmission and introduces FX mismatch risk  
+
+### Visual Highlights
+(Coming Soon)
+
+
+---
 
 ### Modeling & Methodology
+This project translates market signals into a structured sovereign risk framework.
+• Constructed credit profiles using bond pricing, CDS spreads, and yield curve analysis  
+• Modeled default probabilities and expected loss using market-implied data  
+• Analyzed CDS–bond basis dislocations to identify pricing inefficiencies  
+• Evaluated systemic risk using SRISK and banking sector balance sheet exposure  
+• Performed scenario analysis on FX shocks, liquidity stress, and sovereign restructuring  
 
-This analysis combines market-based credit modeling with macro-financial data to assess sovereign and banking sector risk.
-
-• Constructed sovereign credit profiles using bond pricing, yield curve analysis, and CDS-implied default probabilities  
-• Modeled expected loss and default risk using market-implied signals (CDS spreads, Z-spreads, bond discounts)  
-• Analyzed CDS–bond basis dislocations to identify periods of market stress and pricing inefficiencies  
-• Evaluated banking sector fragility through balance sheet composition, sovereign exposure, and SRISK metrics  
-• Performed scenario analysis on FX shocks, liquidity stress, and sovereign restructuring outcomes  
 
 ### Data Sources & Tools
-
-• Bloomberg Terminal (bond yields, sovereign debt data, CDS spreads, Z-spreads, market pricing)  
-• Refinitiv Eikon (CDS data and term structure analysis)  
-• NYU Stern V-Lab (SRISK and systemic risk metrics)  
-• IMF, World Bank, and Central Bank of Argentina datasets (macroeconomic indicators, reserves, inflation, GDP)  
-• Python and Excel for data structuring, modeling, and scenario analysis  
-
+• Bloomberg Terminal  
+• Refinitiv Eikon  
+• NYU Stern V-Lab (SRISK)  
+• IMF, World Bank, Central Bank of Argentina  
+• Python (pandas, numpy), Excel  
 
 ### Why this matters
+Sovereign credit risk is becoming increasingly central to global financial markets.
 
-Sovereign credit risk is increasingly central to global financial stability. As advanced economies face rising debt burdens, persistent deficits, and higher-for-longer interest rates, markets are beginning to reprice sovereign risk in ways that were largely absent in the post-2008 era.
+As advanced economies face rising debt levels and higher interest rates, even small shifts in sovereign risk perception can impact asset pricing, liquidity, and financial stability.
 
-The United States, long considered the global risk-free benchmark, now sits at the center of this shift. Treasury supply is expanding, fiscal deficits remain elevated, and even small changes in perceived creditworthiness or liquidity conditions have system-wide implications across global markets. When the “risk-free rate” itself becomes a subject of scrutiny, the foundations of asset pricing, collateral frameworks, and financial intermediation begin to shift.
+Argentina provides a compressed case study of these dynamics — illustrating how sovereign stress emerges, how it is priced, and how it transmits through financial institutions.
 
-Argentina provides a critical case study in what happens when sovereign credibility erodes. While the U.S. is far from Argentina, the underlying mechanisms — fiscal imbalance, monetary constraints, market-implied default risk, and the feedback loop between sovereigns and financial institutions — follow the same structural logic, just at different magnitudes and time horizons.
+Understanding these mechanisms is critical in a world where sovereign balance sheets are increasingly stretched.
 
-This analysis is therefore not just about Argentina. It is about understanding how sovereign risk propagates through financial systems, how markets price that risk in real time, and how quickly confidence can deteriorate once key thresholds are crossed. In a world where sovereign balance sheets are increasingly stretched, these dynamics are becoming more relevant.
+---
+
+
+## Files
+(Coming soon)
